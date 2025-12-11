@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servicios de Podología</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: sans-serif;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #e39fec;
+        margin: 0;
+      }
+
+      h1{
+text-align: center;
+font-size: 12;
+font-weight: bold;
+      }
+p{
+  text-align: center;
+  font-size: 13;
+  font-weight: bold;
+}
+      table {
+        width: 80%;
+        border-collapse: collapse;
+        background-color: rgb(195, 112, 112);
+        box-shadow: 5 5 5px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        margin: 20px auto;
+      }
+
+      th {
+        background-color: #8b0000; /* Color rojo oscuro */
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-size: 1.2em;
+      }
+
+      td {
+        padding: 10px 15px;
+        border-bottom: 1px solid #ddd;
+        vertical-align: top;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      .service-title {
+        font-weight: bold;
+        color: #8b0000; /* Color rojo oscuro */
+        width: 70%; /* Ajusta el ancho según sea necesario */
+      }
+
+      .price {
+        text-align: right;
+        font-weight: bold;
+        color: #67455d;
+        width: 30%; /* Ajusta el ancho según sea necesario */
+      }
+
+      /* Estilo para las descripciones que ocupan toda la fila */
+      td[colspan="2"] {
+        font-size: 0.9em;
+        color: #333;
+        padding-left: 20px; /* Indentación para las descripciones */
+      }
+      .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .btn {
+        padding: 15px 30px;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .btn-primary {
+        background: linear-gradient(45deg, #667eea, #a24b6e);
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        background: linear-gradient(45deg, #764ba2, #667eea);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 >Listas de Precios</h1>
+    </div>
+    <div>
+      <p>
+        ¡Bienvenidos a Podologia Ailin Dominguez! Soy Ailin, podóloga y
+        reflexóloga podal en la locaalidad de Mariano Moreno. En mi consultorio,
+        me especializo en el cuidado y tratamiento de los pies, brindando
+        servicios de alta calidad y atención personalizada.
+      </p>
+    </div>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Consultas basicas de Podología</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="service-title">Consulta podológica</td>
+            <td class="price">$----</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              La consulta podológica me ayudó a resolver mis problemas de pie y
+              a mejorar mi calidad de vida.
+            </td>
+          </tr>
+          <tr>
+            <td class="service-title">Tratamiento de callos y durezas</td>
+            <td class="price">$----</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              El tratamiento de callos y durezas es fundamental para mantener
+              unos pies sanos y libres de molestias.
+            </td>
+          </tr>
+          <tr>
+            <td class="service-title">Corte y limado de uñas</td>
+            <td class="price">$----</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              Es importante mantener una buena higiene en nuestras manos, por lo
+              que es recomendable realizar el corte y limado de uñas
+              regularmente para evitar posibles infecciones o
+            </td>
+          </tr>
+          <tr>
+            <td class="service-title">Tratamiento de hongos en uñas</td>
+            <td class="price">$----</td>
+          </tr>
+          <tr>
+            <td colspan="2">El tratamiento adecuado de hongos en uñas es.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="button-container">
+      <button class="btn btn-primary">
+        <a href="index.html"> Volver a inicio</a>
+      </button>
+    </div>
+  </body>
+</html>
